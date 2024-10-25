@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RubyHealth</title>
+    <link rel="stylesheet" href="css\styles.css"> 
+</head>
+<body>
+    <!-- Navbar Section -->
+    <header>
+        <nav>
+            <div class="logo">RUBYHEALTH</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="\Views\register.html">Register/Login</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact" class="btn-contact">Contact</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>RubyHealth</h1>
+            <p>Connect with doctors remotely for quick, convenient healthcare.</p>
+            <a href="#services" class="btn-green">View Services</a>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section id="about" class="info">
+        <div class="info-content">
+            <h4>YOUR HEALTH, OUR PRIORITY</h4>
+            <h2>Revolutionizing healthcare access</h2>
+            <p>RubyHealth transforms healthcare access in Kampala by offering a convenient telemedicine app. Consult with qualified doctors from the comfort of your home through video, chat, or phone. Our platform ensures you receive timely care for non-emergency issues, prescriptions, and follow-ups. Experience a new way to manage your health with just a few taps, making healthcare more accessible for everyone.</p>
+            <a href="#contact">Get in touch</a>
+        </div>
+        <div class="info-image">
+            <img src="media\emergency_image.jpeg" alt="Healthcare assistance image"> 
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="info">
+        <div class="info-content">
+            <h4>COMPREHENSIVE HEALTHY CARE</h4>
+            <h2>Healthcare at Your Fingertips</h2>
+            <div class="projects-grid">
+                <div class="project">
+                <a href="\Views\appointment.html">
+                    <img src="media\5d27fbc0-84b2-11ef-a59b-0242ac110002-jpg-regular_image.jpeg" alt="Consult">
+                    <h3>Online doctor consultation ></h3>
+                    <p>Consult with licensed doctors from the comfort of your home.</p>
+                </a>
+                </div>
+                <div class="project">
+                    <a href="">
+                        <img src="media\5d8a0a40-84b2-11ef-a59b-0242ac110002-jpg-regular_image.jpeg" alt="delivery">
+                        <h3>Prescription delivery</h3>
+                        <p>Receive your prescriptions conveniently at your doorstep.</p>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="">
+                        <img src="media\5de58870-84b2-11ef-a59b-0242ac110002-jpg-regular_image.jpeg" alt="followup">
+                        <h3>Follow-up care ></h3>
+                        <p>Stay on track with your health through virtual follow-ups.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="info">
+        <div class="info-content">
+            <h4>GET IN TOUCH</h4>
+            <h2>We're Here to Help You</h2>
+            <form action="" method="post">
+                <label for="name">Name *</label><br>
+                <input type="text" id="name" name="name" placeholder="Jane Smith" required><br>
+    
+                <label for="email">Email address *</label><br>
+                <input type="email" id="email" name="email" placeholder="email@website.com" required><br>
+    
+                <label for="phone">Phone number *</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="555-555-5555" required><br>
+    
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" placeholder="Your message here..." rows="4"></textarea><br>
+    
+                <input type="checkbox" id="consent" name="consent" required>
+                <label for="consent">I allow this website to store my submission so they can respond to my inquiry.</label><br>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div>
+            <p><strong>Get in touch:</strong> <br><a href="mailto:info@rubyhealth.com">info@rubyhealth.com</a></p><br>
+            <p><strong>Location</strong><br> Kampala, C UG</p><br><br>
+            <p><strong>Hours:</strong></p>
+            <ul>
+                <li>Monday to Friday: 9:00am – 10:00pm</li>
+                <li>Saturday: 9:00am – 6:00pm</li>
+                <li>Sunday: 9:00am – 12:00pm</li>
+            </ul>
+        </div>
+    </section>    
+</body>
+</html>
