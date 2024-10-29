@@ -11,18 +11,38 @@
         <h1>Your Dashboard</h1>
         <nav>
             <a href="profile.html">Profile</a>
-            <a href="appointments.html">Appointments</a>
-            <a href="medical_records.html">Medical Records</a>
+            <a href="appointment.html">Appointments</a>
+            <a href="medicalrecords.html">Medical Records</a>
             <a href="support.html">Support</a>
             <a href="terms.html">Terms</a>
-            <a href="#" id="logout">Logout</a>
+            <a href="/Public/index.html">Logout</a>
         </nav>
     </header>
     <main>
         <section>
+            <h2>Welcome, <span id="username">[User's Name]</span>!</h2>
+        </section>
+
+        <section>
             <h2>Upcoming Appointments</h2>
             <ul id="appointmentsList">
                 <!-- Dynamic content will go here -->
+            </ul>
+        </section>
+
+        <section>
+            <h2>Your Health Summary</h2>
+            <div class="health-summary">
+                <p>Total Appointments: <span id="total-appointments">5</span></p>
+                <p>Upcoming Appointments: <span id="upcoming-appointments">2</span></p>
+                <p>Recent Messages: <span id="recent-messages">3</span></p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Recent Messages</h2>
+            <ul id="messageList">
+                <!-- Dynamic messages will go here -->
             </ul>
         </section>
     </main>
